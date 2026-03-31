@@ -10,9 +10,6 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.send("Login tp your account")
 })
-app.get('/home',(req,res)=>{
-    res.send("this is homepage")
-})
 
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${port}`)
